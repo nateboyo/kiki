@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <title>Kiki's Delivery Restaurant - Reservation</title>
+    <link rel="stylesheet" href="stylesheet4.css" >
+  </head>
+  <body>
+    <header>                         
+        <nav>
+            <ul>
+                <li>
+                    <a title="Home" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a title="Menu" href="Menu.html">Menu</a>
+                </li>
+                <li>
+                    <a title="About" href="about.html">About</a>
+                </li>
+                <li>
+                    <a title="Reserve" href="reserve.html">Reserve</a>
+                </li>                                
+            </ul>
+        </nav>                                 
+</header>
+
+    <main>
+      <section class="reservation">
+        <h1>Make a Reservation</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required >
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required >
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required >
+            </div>
+
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required >
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" required >
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Notes (Optional)</label>
+                <textarea id="notes" name="notes"></textarea>
+            </div>
+
+        <button type="submit">Make Reservation</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+		<div class="container">
+			<div class="footer-logo">
+				<img src="images/kikilogo1.png" alt="kikilogo">
+				<h3>Kiki's Delivery Restaurant</h3>
+			</div>
+			<div class="footer-links">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+				<a href="#"><img src="images/facebook.png" alt="facebook"></a>
+				<a href="#"><img src="images/twitter.png" alt="twitter"></a>
+				<a href="#"><img src="images/instagram.png" alt="instagram"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

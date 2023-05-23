@@ -1,0 +1,247 @@
+/* menu html */
+
+header a.logo {
+    position:absolute;
+    display: block;
+    width: 260px;
+    height: 180px;
+    background: url(images/kikilogo1.png) no-repeat 0 0;
+    background-size:contain;
+    top: 15px;
+    left: 15px;
+}
+
+
+
+header nav ul {
+    display: flex;
+    background-color: rgba(0,0,0 .65);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    list-style-type: none;      
+}
+
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-family: 'Alice', serif;
+    letter-spacing: 5px;
+}
+  
+  .logo img {
+    height: 50px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+ 
+  main {
+    padding: 1rem;
+  }
+  
+  .menu-item {
+    margin-bottom: 2rem;
+  }
+  
+  .menu-item img {
+    width: 100%;
+  }
+  
+  .menu-item h2 {
+    margin: 1rem 0;
+  }
+  
+  .menu-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .menu-item .price {
+    font-weight: bold;
+  }
+  
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    header nav ul {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    header nav ul li {
+        margin: 10px 0;
+    }
+    
+    header nav ul li:first-child {
+        margin-top: 0;
+    }
+    
+    header nav ul li:last-child {
+        margin-bottom: 0;
+    }
+    
+    header nav ul li a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .menu-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .menu-item span {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    Font-size: 5em;
+  }
+
+  /* Nav Elements */
+
+nav {
+    display: block;
+}
+
+header nav ul {
+    display: flex;
+    background-color: rgba(0,0,0 .65);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    list-style-type: none;      
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Alice', serif;
+    letter-spacing: 5px;
+}
+
+nav a {
+    color: #0c0c0c;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  
+
+nav a:hover {
+    color: #f7e6d4;
+    background-color: #5e5964;
+  }
+
+  nav li {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Footer Styles */
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .footer-logo h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #1d1d1d;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    margin-right: 20px;
+  }
+  
+  .social-media img {
+    height: 30px;
+  }
+  
